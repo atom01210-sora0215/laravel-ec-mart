@@ -1,0 +1,231 @@
+@font-face {
+font-family: YuGothic, Yu Gothic;
+src: local(YuGo-Medium),
+    url(/path/to/YuGo-Medium.woff2) format("woff2"),
+    url(/path/to/YuGo-Medium.woff) format("woff"),
+    url(/path/to/YuGo-Medium.ttf) format("truetype");
+font-weight: 500;
+font-style: normal;
+font-stretch: normal;
+}
+
+@font-face {
+font-family: YuGothic, Yu Gothic;
+src: local(YuGo-Bold),
+    url(/path/to/YuGo-Bold.woff2) format("woff2"),
+    url(/path/to/YuGo-Bold.woff) format("woff"),
+    url(/path/to/YuGo-Bold.ttf) format("truetype");
+font-weight: bold;
+font-style: normal;
+font-stretch: normal;
+}
+
+h1 {
+font-family: YuGothic, Yu Gothic;
+font-size: 26px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: -0.13px;
+}
+
+h2 {
+font-family: YuGothic, Yu Gothic;
+font-size: 22px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+}
+
+h3 {
+font-family: YuGothic, Yu Gothic;
+font-size: 18px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: 0.04px;
+}
+
+big {
+font-family: YuGothic, Yu Gothic;
+font-size: 16px;
+font-weight: 500;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: 0.08px;
+}
+
+body {
+font-family: YuGothic, Yu Gothic;
+font-size: 14px;
+font-weight: 500;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: 0.11px;
+}
+
+caption {
+font-family: YuGothic, Yu Gothic;
+font-size: 12px;
+font-weight: 500;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: 0.08px;
+}
+
+label {
+font-family: YuGothic, Yu Gothic;
+font-size: 14px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+color: #191919;
+}
+
+.ecmart-login-input {
+    border-radius: 2px;
+    border: solid 1px #b2b2b2;
+    background-color: #ffffff;
+}
+
+.ecmart-check-label {
+    font-family: YuGothic, Yu Gothic;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.ecmart-require-input-label {
+    border-radius: 1px;
+    background-color: #e2001b;
+}
+
+.ecmart-require-input-label-text {
+    font-family: YuGothic, Yu Gothic;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.ecmart-submit-button {
+    font-family: YuGothic, Yu Gothic;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    background-color: #0fbe9f;
+}
+.ecmart-submit-button:hover {
+    color: #717673;
+    background-color: #e3c326;
+}
+
+.ecmart-login-text {
+    font-family: YuGothic, Yu Gothic;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #0fbe9f;
+}
+
+.ecmart-header-container {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.ecmart-header-search-input {
+    border: solid 1px #e5e5e5;
+}
+
+.ecmart-header-search-button {
+    background-color: #0fbe9f;
+}
+.ecmart-header-search-button:hover {
+    color: #717673;
+    background-color: #e3c326;
+}
+
+.ecmart-header-search-icon {
+    color: #ffffff;
+}
+
+.ecmart-header-fav-icon {
+    color: #191919;
+}
+
+.ecmart-header-shoppingcart-icon {
+    color: #ffffff;
+}
+
+.ecmart-favorite-button {
+    border-radius: 2px;
+    font-family: YuGothic, Yu Gothic;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    border: solid 1px #0fbe9f;
+    background-color: #ffffff;
+}
+
+.text-favorite {
+    color: #0fbe9f;
+}
+
+.ecmart-sidebar-category-label {
+    width: 156px;
+    height: 20px;
+    font-family: YuGothic, Yu Gothic;
+    font-size: 13px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #191919;
+}
+
+.ecmart-favorite-add-cart {
+    border-radius: 2px;
+    color: #ffffff;
+    background-color: #0fbe9f;
+}
+
+.review-score-color {
+    color: #0fbe9f;
+}
+
+.review-score-color:focus {
+    color: #0fbe9f;
+}
+
+.ecmart-delete-submit-button {
+    border-radius: 2px;
+    color: #ffffff;
+    background-color: #d94b0e;
+}
